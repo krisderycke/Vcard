@@ -1,6 +1,20 @@
 body {
+     /*background-color: */
+    margin-right: 20%;
+    margin-left: 10px;
     background-image: url(pipes.jpg);
-    background-repeat: no-repeat;
-    filter: opacity(0.5);
-    z-index: -1;
+    background-attachment: fixed;
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size: contain;
+	z-index:-1;
+	overflow: hidden;
+}
+
+.details{
+    /*background: radial-gradient(center, circle, white, rgb(155, 155, 236) );*/
+    border-radius: 10px;
+    border: 1px rgb(66, 52, 52);
+    background-color: rgba(178, 178, 243, 0.5);
+    
 }
