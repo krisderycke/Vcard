@@ -1,0 +1,6 @@
+#main {
+    filter: sepia(50%);
+    filter: hue-rotate(90deg);
+    opacity: 0.5;
+    z-index: -1;
+}
