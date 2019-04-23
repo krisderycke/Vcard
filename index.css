@@ -1,24 +1,26 @@
 body {
-     /*background-color: */
     margin-right: 20%;
     margin-left: 10px;
     background-image: url(pc.jpeg);
-    background-size: 100%;
+    background-size: cover;
     background-attachment: fixed;
 	background-position:center;
 	background-repeat:no-repeat;
-	/*background-size: contain;*/
-	z-index:-1;
-	overflow: hidden;
+    z-index:-1;
+    position: absolute;
+    width: auto;
+    top: 0;
+    left: 0;    
 }
 
 .details{
-    /*background: radial-gradient(center, circle, white, rgb(155, 155, 236) );*/
     border-radius: 10px;
     border: 1px rgb(66, 52, 52);
-    background-color: rgba(178, 178, 243, 0.5);
+    /*background-color: rgba(178, 178, 243, 0.5);*/
+    background-image: linear-gradient(to top left, white, rgba(141, 141, 199, 0.5));
 }
 
 p {
     margin-left: 20px;
+    font-size: 1.5em;
 }
