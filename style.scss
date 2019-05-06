@@ -1,0 +1,30 @@
+$bg-color: linear-gradient(to top left, white, rgba(141, 141, 199, 0.5));
+$border: 1px rgb(66,52,52);
+
+body {
+    background: {
+        size: cover;
+        attachment: fixed;
+        position:fixed;
+        repeat: center;
+        image: url(pc.jpeg);
+    }
+    margin: {
+        right: 20%;
+        left: 10px;
+    }
+}
+
+.details {
+    border: $border;
+    border-radius: 10px;
+    background-image: $bg-color;
+    
+    p{
+        margin-left: 20px;
+        font-size: 1.5rem;
+    }
+}
+
+
+
