@@ -6,6 +6,10 @@ body {
   background-image: url(pc.jpeg);
   margin-right: 20%;
   margin-left: 10px;
+  position: fixed;
+  width: auto;
+  top: 0;
+  left: 0;
 }
 
 .details {
@@ -19,5 +23,14 @@ body {
   margin-left: 20px;
   font-size: 1.5rem;
   color: green;
+}
+
+.details a {
+  text-decoration: none;
+}
+
+.details a:hover {
+  text-decoration: underline;
+  color: black;
 }
 /*# sourceMappingURL=style.css.map */
