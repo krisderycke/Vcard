@@ -1,4 +1,4 @@
-$bg-color: linear-gradient(to top left, white, rgba(141, 141, 199, 0.5));
+$bg-color: linear-gradient(to top right, white, rgba(141, 141, 199, 0.5));
 $border: 1px rgb(66,52,52);
 
 body {
@@ -23,6 +23,7 @@ body {
     p{
         margin-left: 20px;
         font-size: 1.5rem;
+        color: green;
     }
 }
 

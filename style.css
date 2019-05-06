@@ -11,12 +11,13 @@ body {
 .details {
   border: 1px #423434;
   border-radius: 10px;
-  background-image: -webkit-gradient(linear, right bottom, left top, from(white), to(rgba(141, 141, 199, 0.5)));
-  background-image: linear-gradient(to top left, white, rgba(141, 141, 199, 0.5));
+  background-image: -webkit-gradient(linear, left bottom, right top, from(white), to(rgba(141, 141, 199, 0.5)));
+  background-image: linear-gradient(to top right, white, rgba(141, 141, 199, 0.5));
 }
 
 .details p {
   margin-left: 20px;
   font-size: 1.5rem;
+  color: green;
 }
 /*# sourceMappingURL=style.css.map */
